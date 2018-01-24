@@ -5,6 +5,15 @@ body{
 h1{
     text-align: center;
     font-size: 55px;
+    color: lightblue;
+}
+
+@@media screen and (max-width: 768px) {
+  body{
+    background-color: pink;
+  }
+}
+
 }
 
 /* Macete para alinhar uma imagem no centro */
